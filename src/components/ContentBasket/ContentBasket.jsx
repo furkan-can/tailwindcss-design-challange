@@ -1,4 +1,5 @@
 import Button from "../Button/Button"
+import PropTypes from "prop-types";
 
 const ContentBasket = ({ imgSrc, title, paragraph }) => {
   return (
@@ -28,6 +29,12 @@ const ContentBasket = ({ imgSrc, title, paragraph }) => {
 
     </div>
   );
+};
+
+ContentBasket.propTypes = {
+  imgSrc: PropTypes.string,
+  title: PropTypes.string,
+  paragraph: PropTypes.string
 };
 
 export default ContentBasket;
