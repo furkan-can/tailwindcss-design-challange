@@ -3,7 +3,7 @@ import RectangleSection from '../prefabs/RectangleSection/RectangleSection'
 import SneakersSection from '../prefabs/SneakersSection/SneakersSection'
 
 
-function View() {
+function MainPage() {
 
     return (
         <div className="bg-doublecolor flex items-center justify-center flex-col">
@@ -14,4 +14,4 @@ function View() {
     )
 }
 
-export default View
+export default MainPage;

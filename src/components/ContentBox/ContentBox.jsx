@@ -16,7 +16,7 @@ const ContentBox = ({ assets, title, paragraph }) => {
                         </div>
                     </div>
                 </div>
-                <div className="Paragraph self-stretch text-slate-900 text-lg font-normal leading-[28.80px]">
+                <div className="Paragraph pr-10 self-stretch text-slate-900 text-lg font-normal leading-[28.80px]">
                     {paragraph}
                 </div>
             </div>

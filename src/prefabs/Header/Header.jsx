@@ -4,7 +4,7 @@ import Button from "../../components/Button/Button"
 
 const Header = () => {
     return (
-        <div className="w-[1440px] h-24 px-20 py-6 flex justify-between items-center gap-[202px]">
+        <div className="w-[1440px] h-24 py-6 flex justify-between items-center gap-[202px]">
             <div className="text-amber-900 text-[32px] font-bold leading-9 ">Collers</div>
             <MenuItems >
                 <MenuItem text={"Products"}></MenuItem>

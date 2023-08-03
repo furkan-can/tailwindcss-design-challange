@@ -1,12 +1,14 @@
 import './App.css'
-import View from './view/view'
+import BestOfBestPage from './view/BestOfBestPage'
+import MainPage from './view/MainPage'
 
 
 function App() {
 
   return (
     <div className='w-full h-full overflow-auto'>
-      <View />
+      <MainPage />
+      <BestOfBestPage/>
     </div>
   )
 }
