@@ -1,5 +1,6 @@
 import './App.css'
 import BestOfBestPage from './view/BestOfBestPage'
+import LoveUsPage from './view/LoveUsPage'
 import MainPage from './view/MainPage'
 import WhyJoinPage from './view/WhyJoinPage'
 
@@ -11,6 +12,7 @@ function App() {
       <MainPage />
       <BestOfBestPage />
       <WhyJoinPage />
+      <LoveUsPage />
     </div>
   )
 }
