@@ -72,13 +72,13 @@ const GrowPage = () => {
                         />
                     </div>
                     <div className=" w-[944px] h-[556px] flex-col justify-start items-start gap-2.5 inline-flex relative">
-                        <div className="w-[759px] h-[451px] bg-white rounded-[20px] shadow border-2 border-white flex-col justify-start items-center flex">
+                        <div className="w-[759px] h-[451px] bg-white rounded-[20px] shadow  flex-col justify-start items-center flex">
                             <GrowImg classNameImg={" select-none self-stretch grow shrink basis-0 shadow"} imageSrc="src/assets/screen2.png" />
                         </div>
-                        <div className="w-[759px] h-[451px] top-[6rem] absolute left-[6rem] bg-white rounded-[20px] shadow border-2 border-white flex-col justify-start items-center flex">
+                        <div className="w-[759px] h-[451px] top-[7rem] absolute left-[6rem] bg-white rounded-[20px] shadow flex-col justify-start items-center flex">
                             <GrowImg classNameImg={` select-none self-stretch grow shrink basis-0 shadow`} imageSrc="src/assets/screen3.png" />
                         </div>
-                        <GrowImg classNameImg={` select-none w-64 h-[286px] absolute bottom-[5rem] right-0 rounded-[10px] shadow border-2 border-white`} imageSrc="src/assets/ass1.png" />
+                        <GrowImg classNameImg={` select-none w-64 h-[286px] absolute bottom-[3rem] right-0 rounded-[10px] shadow`} imageSrc="src/assets/ass1.png" />
                     </div>
                 </div>
                 <div className='w-[1440px] h-[684px] '>
