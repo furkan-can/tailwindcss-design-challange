@@ -4,6 +4,7 @@ import BestOfBestPage from './view/BestOfBestPage'
 import LoveUsPage from './view/LoveUsPage'
 import MainPage from './view/MainPage'
 import WhyJoinPage from './view/WhyJoinPage'
+import CollectedPage from './view/CollectedPage'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <WhyJoinPage />
       <LoveUsPage />
       <GrowPage />
+      <CollectedPage />
     </div>
   )
 }
