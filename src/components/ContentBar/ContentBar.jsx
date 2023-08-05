@@ -14,14 +14,14 @@ function ContentBar({ icon, title, description, user }) {
             <UserCard {...user} />
         </div>
 
-        
+
     );
 }
 
 
 ContentBar.propTypes = {
     icon: PropTypes.element.isRequired,
-    title: PropTypes.element.isRequired,
+    title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     user: PropTypes.shape({
         name: PropTypes.string.isRequired,

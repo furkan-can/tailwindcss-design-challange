@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 
 
 function UserCard({ name, role, imageUrl }) {
-    console.log(imageUrl);
     return (
 
         <div className="UserCard self-stretch pt-4 justify-start items-center gap-4 inline-flex">

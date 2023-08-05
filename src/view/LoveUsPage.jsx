@@ -54,7 +54,7 @@ const LoveUsPage = () => {
     }
 
     return (
-        <div className="w-full justify-center items-center flex p-20">
+        <div className="w-full justify-center items-center flex px-20 pt-20">
             <div className=" overflow-hidden Section relative w-[1440px] h-[732px] flex-col gap-20 inline-flex px-10">
                 <div className="Row self-stretch justify-start items-center gap-12 inline-flex">
                     <div className="SectionText grow shrink basis-0 flex-col justify-start items-start gap-8 inline-flex">

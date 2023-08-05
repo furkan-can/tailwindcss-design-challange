@@ -1,4 +1,5 @@
 import './App.css'
+import GrowPage from './view/GrowPage'
 import BestOfBestPage from './view/BestOfBestPage'
 import LoveUsPage from './view/LoveUsPage'
 import MainPage from './view/MainPage'
@@ -13,6 +14,7 @@ function App() {
       <BestOfBestPage />
       <WhyJoinPage />
       <LoveUsPage />
+      <GrowPage />
     </div>
   )
 }
