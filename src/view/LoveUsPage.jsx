@@ -69,7 +69,7 @@ const LoveUsPage = () => {
                 </div>
                 <div className=" Rectangle28 w-[1360px] h-[421px] z-[1] bg-amber-200 " >
 
-                    <div className='iphone:w-5/6 iphone:mt-48 mt-20 w-[2040px] h-[430px] flex absolute left-[-290px] overflow-hidden top-[6rem]'>
+                    <div className='mt-20 w-[2040px] h-[430px] flex absolute left-[-290px] overflow-hidden top-[6rem]'>
                         <AliceCarousel ref={carousel} disableDotsControls
                             disableButtonsControls responsive={responsive} infinite items={items} />
                     </div>

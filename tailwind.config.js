@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'iphone': {'max' : '390px'}
+      },
       backgroundImage: {
         doublecolor: "linear-gradient(-21deg, #FEF3C7 43%, #FFFBEB 20%)",
       },

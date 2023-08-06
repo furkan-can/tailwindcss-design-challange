@@ -13,12 +13,12 @@ function App() {
   return (
     <div className='w-full h-full bg-amber-50'>
       <MainPage />
-      <BestOfBestPage />
+      {/* <BestOfBestPage />
       <WhyJoinPage />
       <LoveUsPage />
       <GrowPage />
       <CollectedPage />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@ import SneakersSection from '../prefabs/SneakersSection/SneakersSection'
 function MainPage() {
 
     return (
-        <div className="bg-doublecolor flex items-center justify-center flex-col">
+        <div className="bg-doublecolor flex items-center justify-center flex-col iphone:w-screen">
             <Header />
             <SneakersSection />
             <RectangleSection />

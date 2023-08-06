@@ -30,7 +30,7 @@ const RectangleSection = () => {
   ];
 
   return (
-    <div className="w-[1440px] h-[350px] py-7  flex-col justify-end items-center inline-flex">
+    <div className="w-[1440px] h-[350px] py-7 flex-col justify-end items-center inline-flex iphone:h-full iphone:w-full iphone:justify-center">
       <ContentRow items={contentItems} />
     </div>
   );

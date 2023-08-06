@@ -2,9 +2,8 @@ import PropTypes from "prop-types"
 
 const MenuItems = (props) => {
     return (
-        <ul className="gap-4 flex items-center">
+        <ul className="gap-4 flex items-center iphone:hidden">
             {props.children}
-
         </ul>
     )
 }
