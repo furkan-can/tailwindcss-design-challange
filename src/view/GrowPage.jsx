@@ -76,7 +76,7 @@ const GrowPage = () => {
                             <GrowImg classNameImg={" select-none self-stretch grow shrink basis-0 shadow"} imageSrc="src/assets/screen2.png" />
                         </div>
                         <div className="w-[759px] h-[451px] iphone:w-[295px] iphone:h-[202px] top-[7rem] iphone:top-[2rem] iphone:left-[2.5rem] absolute left-[6rem] bg-white rounded-[20px] shadow flex-col justify-start items-center flex">
-                            <GrowImg classNameImg={` select-none self-stretch grow shrink basis-0 shadow`} imageSrc="src/assets/screen3.png" />
+                            <GrowImg classNameImg={` select-none self-stretch grow border border-white shrink basis-0 shadow`} imageSrc="src/assets/screen3.png" />
                         </div>
                         <GrowImg classNameImg={`border-white select-none iphone:w-[94px] iphone:h-[105px] iphone:bottom-[2rem] iphone:right-[4px] iphone:border-4 w-64 h-[286px] absolute bottom-[3rem] right-0 rounded-[10px] shadow`} imageSrc="src/assets/ass1.png" />
                     </div>
