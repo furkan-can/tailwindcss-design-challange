@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      rotate: {
+        '50': '50deg',
+      },
       screens: {
         'iphone': {'max' : '390px'}
       },
