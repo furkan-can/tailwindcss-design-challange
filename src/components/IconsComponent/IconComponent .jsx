@@ -116,47 +116,48 @@ const IconComponent = ({ iconType, width, height, fill }) => {
       break;
 
     case 'bg-basket':
-      if (fill == 'z-[-1] bg-basket2') {
-        svgCode = (
-          <div className={`${fill} rotate-90 w-[1012.71px] h-[393px] relative`}>
-            <div className="Rectangle25 w-[150.64px] h-[150.64px] left-[1000px] top-[50px] absolute origin-top-left rotate-90 opacity-75 bg-fuchsia-700 rounded-[30px]" />
-            <div className="Rectangle25 w-[120.06px] h-[120.06px] left-[550px] top-[-185px] absolute origin-top-left rotate-90 opacity-75 bg-sky-700 rounded-[50px]" />
-            <div className="Rectangle26 w-[202.09px] h-[202.09px] left-[315px] top-[-30px] absolute origin-top-left rotate-90 opacity-75 bg-pink-700 rounded-[50px]" />
-          </div>);
-      } else {
-        svgCode = (
-          <div className={`${fill} w-[1358px] h-[527px] relative`}>
-            <div className="Rectangle26 w-[232px] h-[232px] left-[1245px] top-[34px] absolute opacity-75 bg-green-700 rounded-[50px]" />
-            <div className="Rectangle25 w-[202px] h-[202px] left-[1157px] top-[300px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
-            <div className="Rectangle27 w-[130px] h-[130px] left-[810px] top-[325px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
-            <div className="Rectangle25 w-[161px] h-[161px] left-[500px] top-[-40px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
-            <div className="Rectangle26 w-[271px] h-[271px] left-[-35px] top-[180px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
-          </div>);
-      }
+      svgCode = (
+        <div className={`${fill} w-[1358px] h-[527px] relative`}>
+          <div className="Rectangle26 w-[232px] h-[232px] left-[1245px] top-[34px] absolute opacity-75 bg-green-700 rounded-[50px]" />
+          <div className="Rectangle25 w-[202px] h-[202px] left-[1157px] top-[300px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
+          <div className="Rectangle27 w-[130px] h-[130px] left-[810px] top-[325px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
+          <div className="Rectangle25 w-[161px] h-[161px] left-[500px] top-[-40px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
+          <div className="Rectangle26 w-[271px] h-[271px] left-[-35px] top-[180px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
+        </div>);
+      break;
+
+    case 'bg-basket2':
+      svgCode = (
+        <div className={`${fill} rotate-90 w-[1012.71px] h-[393px] relative`}>
+          <div className="Rectangle25 w-[150.64px] h-[150.64px] left-[1000px] top-[50px] absolute origin-top-left rotate-90 opacity-75 bg-fuchsia-700 rounded-[30px]" />
+          <div className="Rectangle25 w-[120.06px] h-[120.06px] left-[550px] top-[-185px] absolute origin-top-left rotate-90 opacity-75 bg-sky-700 rounded-[50px]" />
+          <div className="Rectangle26 w-[202.09px] h-[202.09px] left-[315px] top-[-30px] absolute origin-top-left rotate-90 opacity-75 bg-pink-700 rounded-[50px]" />
+        </div>);
+
       break;
 
 
+    case 'deco-video2':
+      svgCode = (
+        <div className={`${fill} w-[392px] h-[386px] relative iphone:z-[0]`}>
+          <div className="Rectangle30 w-[411.34px] h-[134.55px] left-0 top-[290.86px] absolute origin-top-left -rotate-[50deg] bg-amber-200" />
+          <div className="Rectangle29 w-[45.69px] h-[45.69px] left-[282.75px] top-[279.78px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
+          <div className="Rectangle27 w-[55.56px] h-[55.56px] left-[33.96px] top-[97.66px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
+          <div className="Rectangle25 w-[36.42px] h-[37.04px] left-[316.71px] top-[27.90px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
+          <div className="Rectangle26 w-[134.59px] h-[134.59px] left-[250px] top-[231.01px]  absolute opacity-75 bg-pink-700 rounded-[50px]" />
+        </div>)
+      break;
+
     case 'deco-video':
-      if (fill == "deco-video2 relative") {
-        svgCode = (
-          <div className={`${fill} w-[392px] h-[386px] relative iphone:z-[0]`}>
-            <div className="Rectangle30 w-[411.34px] h-[134.55px] left-0 top-[290.86px] absolute origin-top-left -rotate-[50deg] bg-amber-200" />
-            <div className="Rectangle29 w-[45.69px] h-[45.69px] left-[282.75px] top-[279.78px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
-            <div className="Rectangle27 w-[55.56px] h-[55.56px] left-[33.96px] top-[97.66px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
-            <div className="Rectangle25 w-[36.42px] h-[37.04px] left-[316.71px] top-[27.90px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
-            <div className="Rectangle26 w-[134.59px] h-[134.59px] left-[258px] top-[231.01px]  absolute opacity-75 bg-pink-700 rounded-[50px]" />
-          </div>)
-      } else {
-        svgCode = (
-          <div className={`${fill} h-[625.24px] relative`}>
-            <div className="Rectangle30 w-[666.28px] h-[217.93px] left-0 top-[471.13px] absolute origin-top-left -rotate-45 bg-amber-200" />
-            <div className="Rectangle29 w-[74px] h-[74px] left-[458px] top-[453.19px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
-            <div className="Rectangle27 w-[90px] h-[90px] left-[55px] top-[158.19px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
-            <div className="Rectangle25 w-[59px] h-[60px] left-[513px] top-[45.19px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
-            <div className="Rectangle26 w-[218px] h-[218px] left-[495px] top-[374.19px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
-          </div>
-        );
-      }
+      svgCode = (
+        <div className={`${fill} h-[625.24px] relative`}>
+          <div className="Rectangle30 w-[666.28px] h-[217.93px] left-0 top-[471.13px] absolute origin-top-left -rotate-45 bg-amber-200" />
+          <div className="Rectangle29 w-[74px] h-[74px] left-[458px] top-[453.19px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
+          <div className="Rectangle27 w-[90px] h-[90px] left-[55px] top-[158.19px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
+          <div className="Rectangle25 w-[59px] h-[60px] left-[513px] top-[45.19px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
+          <div className="Rectangle26 w-[218px] h-[218px] left-[495px] top-[374.19px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
+        </div>
+      );
       break;
 
     case 'icon-thick':

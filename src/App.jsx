@@ -15,10 +15,10 @@ function App() {
       <MainPage />
       <BestOfBestPage />
       <WhyJoinPage />
-      {/* <LoveUsPage />
+      <LoveUsPage />
       <GrowPage />
       <CollectedPage />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

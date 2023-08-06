@@ -50,26 +50,26 @@ const LoveUsPage = () => {
     const carousel = useRef();
     const responsive = {
         1360: { items: 5 },
-        385: { items: 1 }
+        390: { items: 1 }
     }
 
     return (
-        <div className="w-full justify-center items-center flex px-20 pt-20">
-            <div className=" overflow-hidden Section relative w-[1440px] h-[732px] flex-col gap-20 inline-flex px-10">
-                <div className="Row self-stretch justify-start items-center gap-12 inline-flex">
-                    <div className="SectionText grow shrink basis-0 flex-col justify-start items-start gap-8 inline-flex">
-                        <div className="self-stretch h-[62px] flex-col justify-start items-start gap-2 flex px-10">
+        <div className="w-full iphone:w-screen iphone:px-4 iphone:py-12 iphone:gap-8 justify-center items-center flex px-20 pt-20">
+            <div className=" overflow-hidden iphone:overflow-visible iphone:px-0 iphone:text-center iphone:gap-8 relative w-[1440px] h-[732px] iphone:h-[350px] flex-col gap-20 inline-flex px-10">
+                <div className="Row self-stretch iphone:h-[35px] justify-start items-center gap-12 inline-flex">
+                    <div className="SectionText iphone:h-[35px] grow shrink basis-0 flex-col justify-start items-start gap-8 inline-flex">
+                        <div className="self-stretch h-[62px] iphone:h-[35px] iphone:px-0 flex-col justify-start items-start gap-2 flex px-10">
                             <HeadLine />
                         </div>
                     </div>
-                    <div className="Arrows justify-start items-start px-10 gap-6 flex">
+                    <div className="Arrows iphone:hidden justify-start items-start px-10 gap-6 flex">
                         <ArrowButton direction="left" handleArrowClick={(e) => carousel?.current?.slidePrev(e)} />
                         <ArrowButton direction="right" handleArrowClick={(e) => carousel?.current?.slideNext(e)} />
                     </div>
                 </div>
-                <div className=" Rectangle28 w-[1360px] h-[421px] z-[1] bg-amber-200 " >
+                <div className="w-[1360px] iphone:w-screen iphone:h-[16.5rem] h-[421px] z-[1] bg-amber-200 " >
 
-                    <div className='mt-20 w-[2040px] h-[430px] flex absolute left-[-290px] overflow-hidden top-[6rem]'>
+                    <div className='mt-20 w-[2040px] h-[430px] iphone:w-full flex absolute iphone:h-[350px] left-[-290px] iphone:left-[0px] iphone:top-[-30px] overflow-hidden top-[6rem]'>
                         <AliceCarousel ref={carousel} disableDotsControls
                             disableButtonsControls responsive={responsive} infinite items={items} />
                     </div>
