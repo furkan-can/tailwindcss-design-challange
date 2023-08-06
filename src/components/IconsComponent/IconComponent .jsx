@@ -116,16 +116,25 @@ const IconComponent = ({ iconType, width, height, fill }) => {
       break;
 
     case 'bg-basket':
-      svgCode = (
-        <div className={`${fill} w-[1358px] h-[527px] relative`}>
-          <div className="Rectangle26 w-[232px] h-[232px] left-[1245px] top-[34px] absolute opacity-75 bg-green-700 rounded-[50px]" />
-          <div className="Rectangle25 w-[202px] h-[202px] left-[1157px] top-[300px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
-          <div className="Rectangle27 w-[130px] h-[130px] left-[810px] top-[325px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
-          <div className="Rectangle25 w-[161px] h-[161px] left-[500px] top-[-40px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
-          <div className="Rectangle26 w-[271px] h-[271px] left-[-35px] top-[180px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
-        </div>
-      );
+      if (fill == 'z-[-1] bg-basket2') {
+        svgCode = (
+          <div className={`${fill} rotate-90 w-[1012.71px] h-[393px] relative`}>
+            <div className="Rectangle25 w-[150.64px] h-[150.64px] left-[1000px] top-[50px] absolute origin-top-left rotate-90 opacity-75 bg-fuchsia-700 rounded-[30px]" />
+            <div className="Rectangle25 w-[120.06px] h-[120.06px] left-[550px] top-[-185px] absolute origin-top-left rotate-90 opacity-75 bg-sky-700 rounded-[50px]" />
+            <div className="Rectangle26 w-[202.09px] h-[202.09px] left-[315px] top-[-30px] absolute origin-top-left rotate-90 opacity-75 bg-pink-700 rounded-[50px]" />
+          </div>);
+      } else {
+        svgCode = (
+          <div className={`${fill} w-[1358px] h-[527px] relative`}>
+            <div className="Rectangle26 w-[232px] h-[232px] left-[1245px] top-[34px] absolute opacity-75 bg-green-700 rounded-[50px]" />
+            <div className="Rectangle25 w-[202px] h-[202px] left-[1157px] top-[300px] absolute opacity-75 bg-fuchsia-700 rounded-[30px]" />
+            <div className="Rectangle27 w-[130px] h-[130px] left-[810px] top-[325px] absolute opacity-75 bg-amber-700 rounded-[30px]" />
+            <div className="Rectangle25 w-[161px] h-[161px] left-[500px] top-[-40px] absolute opacity-75 bg-sky-700 rounded-[50px]" />
+            <div className="Rectangle26 w-[271px] h-[271px] left-[-35px] top-[180px] absolute opacity-75 bg-pink-700 rounded-[50px]" />
+          </div>);
+      }
       break;
+
 
     case 'deco-video':
       svgCode = (

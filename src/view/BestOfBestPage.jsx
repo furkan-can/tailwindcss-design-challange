@@ -10,9 +10,9 @@ const BestOfBestPage = () => {
     return (
         <BestOfBestSection>
             <Navbar />
-            <div className="w-[1440px] z-[0] relative  inline-flex">
-                <IconComponent fill={"z-[-1]"} iconType={"bg-basket"}></IconComponent>
-                <div className="flex gap-[8rem]">
+            <div className="w-[1440px] z-[0] relative inline-flex iphone:w-full ">
+                <IconComponent fill={"z-[-1] bg-basket2"} iconType={"bg-basket"}></IconComponent>
+                <div className="flex gap-[8rem] iphone:gap-8 iphone:flex-col iphone:w-full iphone:justify-center iphone:items-center iphone:pr-4">
                     <ContentBasket
                         imgSrc={shoes1}
                         title="Title"
