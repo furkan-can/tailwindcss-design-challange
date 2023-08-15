@@ -4,7 +4,8 @@ This project is an example I prepared to improve my React and Tailwind CSS skill
 
 ## Example Picture
 
-![Uploading Yeni proje.gif…]()
+![merge_from_ofoct](https://github.com/furkan-can/tailwindcss-design-challange/assets/79963893/e147c02f-201c-48ef-84a6-9edb6c406b09)
+
 
 ## Technologies and Concepts
 
